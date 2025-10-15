@@ -3,163 +3,226 @@
 
 <head>
   <title>Periodic Table</title>
+
+  <style>
+    *{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #b-blue{
+      background-color: rgb(224, 236, 254);
+    }
+    .t-blue{
+      color: rgb(0, 0, 255);
+    }
+    #b-lblue{
+      background-color: rgb(215, 240, 248);
+    }
+    .t-lblue{
+      color: rgb(60, 63, 196);
+    }
+    #b-red{
+      background-color: rgb(255, 224, 224);
+    }
+    .t-red{
+      color: rgb(176, 32, 32);
+    }
+    #b-purple{
+      background-color: rgb(235, 227, 240);
+    }
+    .t-purple{
+      color: rgb(100, 75, 145);
+    }
+    #b-pblue{
+      background-color: rgb(224, 237, 247);
+    }
+    .t-pblue{
+      color: rgb(20 52 76);
+    }
+    #b-peach{
+      background-color: rgb(255, 230, 220);
+    }
+    .t-peach{
+      color: rgb(180, 80, 60);
+    }
+    #b-grey{
+      background-color: rgb(234, 234, 234);
+    }
+    .t-grey{
+      color: rgb(67, 67, 73);
+    }
+    #b-beige{
+      background-color: rgb(248, 245, 230);
+    }
+    .t-beige{
+      color: rgb(153, 101, 21);
+    }
+    #b-green{
+      background-color: rgb(196, 235, 203);
+    }
+    .t-green{
+      color: rgb(34, 102, 51);
+    }
+
+  </style>
 </head>
 
 <body>
 
   <h2>Periodic Table </h2>
 
-  <table border="1">
+  <table style="text-align: center;">
     <tr>
-      <td>H</td>
+      <td id="b-blue" class="t-blue">H</td>
       <td colspan="16"></td>
-      <td>He</td>
+      <td id="b-red" class="t-red">He</td>
     </tr>
 
     <tr>
-      <td>Li</td>
-      <td>Be</td>
+      <td id="b-lblue" class="t-lblue">Li</td>
+      <td id="b-red" class="t-red">Be</td>
       <td colspan="10"></td>
-      <td>B</td>
-      <td>C</td>
-      <td>N</td>
-      <td>O</td>
-      <td>F</td>
-      <td>Ne</td>
+      <td id="b-beige" class="t-beige">B</td>
+      <td id="b-blue" class="t-blue">C</td>
+      <td id="b-blue" class="t-blue">N</td>
+      <td id="b-blue" class="t-blue">O</td>
+      <td id="b-blue" class="t-blue">F</td>
+      <td id="b-red" class="t-red">Ne</td>
     </tr>
 
     <tr>
-      <td>Na</td>
-      <td>Mg</td>
+      <td id="b-lblue" class="t-lblue">Na</td>
+      <td id="b-red" class="t-red">Mg</td>
       <td colspan="10"></td>
-      <td>Al</td>
-      <td>Si</td>
-      <td>P</td>
-      <td>S</td>
-      <td>Cl</td>
-      <td>Ar</td>
+      <td id="b-green" class="t-green">Al</td>
+      <td id="b-beige" class="t-beige">Si</td>
+      <td id="b-blue" class="t-blue">P</td>
+      <td id="b-blue" class="t-blue">S</td>
+      <td id="b-blue" class="t-blue">Cl</td>
+      <td id="b-red" class="t-red">Ar</td>
     </tr>
 
     <tr>
-      <td>K</td>
-      <td>Ca</td>
-      <td>Sc</td>
-      <td>Ti</td>
-      <td>V</td>
-      <td>Cr</td>
-      <td>Mn</td>
-      <td>Fe</td>
-      <td>Co</td>
-      <td>Ni</td>
-      <td>Cu</td>
-      <td>Zn</td>
-      <td>Ga</td>
-      <td>Ge</td>
-      <td>As</td>
-      <td>Se</td>
-      <td>Br</td>
-      <td>Kr</td>
+      <td id="b-lblue" class="t-lblue">K</td>
+      <td id="b-red" class="t-red">Ca</td>
+      <td id="b-purple" class="t-purple">Sc</td>
+      <td id="b-purple" class="t-purple">Ti</td>
+      <td id="b-purple" class="t-purple">V</td>
+      <td id="b-purple" class="t-purple">Cr</td>
+      <td id="b-purple" class="t-purple">Mn</td>
+      <td id="b-purple" class="t-purple">Fe</td>
+      <td id="b-purple" class="t-purple">Co</td>
+      <td id="b-purple" class="t-purple">Ni</td>
+      <td id="b-purple" class="t-purple">Cu</td>
+      <td id="b-purple" class="t-purple">Zn</td>
+      <td id="b-green" class="t-green">Ga</td>
+      <td id="b-beige" class="t-beige">Ge</td>
+      <td id="b-beige" class="t-beige">As</td>
+      <td id="b-blue" class="t-blue">Se</td>
+      <td id="b-blue" class="t-blue">Br</td>
+      <td id="b-red" class="t-red">Kr</td>
     </tr>
 
     <tr>
-      <td>Rb</td>
-      <td>Sr</td>
-      <td>Y</td>
-      <td>Zr</td>
-      <td>Nb</td>
-      <td>Mo</td>
-      <td>Tc</td>
-      <td>Ru</td>
-      <td>Rh</td>
-      <td>Pd</td>
-      <td>Ag</td>
-      <td>Cd</td>
-      <td>In</td>
-      <td>Sn</td>
-      <td>Sb</td>
-      <td>Te</td>
-      <td>I</td>
-      <td>Xe</td>
+      <td id="b-lblue" class="t-lblue">Rb</td>
+      <td id="b-red" class="t-red">Sr</td>
+      <td id="b-purple" class="t-purple">Y</td>
+      <td id="b-purple" class="t-purple">Zr</td>
+      <td id="b-purple" class="t-purple">Nb</td>
+      <td id="b-purple" class="t-purple">Mo</td>
+      <td id="b-purple" class="t-purple">Tc</td>
+      <td id="b-purple" class="t-purple">Ru</td>
+      <td id="b-purple" class="t-purple">Rh</td>
+      <td id="b-purple" class="t-purple">Pd</td>
+      <td id="b-purple" class="t-purple">Ag</td>
+      <td id="b-purple" class="t-purple">Cd</td>
+      <td id="b-green" class="t-green">In</td>
+      <td id="b-green" class="t-green">Sn</td>
+      <td id="b-beige" class="t-beige">Sb</td>
+      <td id="b-beige" class="t-beige">Te</td>
+      <td id="b-blue" class="t-blue">I</td>
+      <td id="b-red" class="t-red">Xe</td>
     </tr>
 
     <tr>
-      <td>Cs</td>
-      <td>Ba</td>
-      <td>La</td>
-      <td>Hf</td>
-      <td>Ta</td>
-      <td>W</td>
-      <td>Re</td>
-      <td>Os</td>
-      <td>Ir</td>
-      <td>Pt</td>
-      <td>Au</td>
-      <td>Hg</td>
-      <td>Tl</td>
-      <td>Pb</td>
-      <td>Bi</td>
-      <td>Po</td>
-      <td>At</td>
-      <td>Rn</td>
+      <td id="b-lblue" class="t-lblue">Cs</td>
+      <td id="b-red" class="t-red">Ba</td>
+      <td id="b-pblue" class="t-pblue">La</td>
+      <td id="b-purple" class="t-purple">Hf</td>
+      <td id="b-purple" class="t-purple">Ta</td>
+      <td id="b-purple" class="t-purple">W</td>
+      <td id="b-purple" class="t-purple">Re</td>
+      <td id="b-purple" class="t-purple">Os</td>
+      <td id="b-purple" class="t-purple">Ir</td>
+      <td id="b-purple" class="t-purple">Pt</td>
+      <td id="b-purple" class="t-purple">Au</td>
+      <td id="b-purple" class="t-purple">Hg</td>
+      <td id="b-green" class="t-green">Tl</td>
+      <td id="b-green" class="t-green">Pb</td>
+      <td id="b-green" class="t-green">Bi</td>
+      <td id="b-green" class="t-green">Po</td>
+      <td id="b-green" class="t-green">At</td>
+      <td id="b-red" class="t-red">Rn</td>
     </tr>
 
     <tr>
-      <td>Fr</td>
-      <td>Ra</td>
-      <td>Ac</td>
-      <td>Rf</td>
-      <td>Db</td>
-      <td>Sg</td>
-      <td>Bh</td>
-      <td>Hs</td>
-      <td>Mt</td>
-      <td>Ds</td>
-      <td>Rg</td>
-      <td>Cn</td>
-      <td>Nh</td>
-      <td>Fl</td>
-      <td>Mc</td>
-      <td>Lv</td>
-      <td>Ts</td>
-      <td>Og</td>
+      <td id="b-lblue" class="t-lblue">Fr</td>
+      <td id="b-red" class="t-red">Ra</td>
+      <td id="b-peach" class="t-peach">Ac</td>
+      <td id="b-purple" class="t-purple">Rf</td>
+      <td id="b-purple" class="t-purple">Db</td>
+      <td id="b-purple" class="t-purple">Sg</td>
+      <td id="b-purple" class="t-purple">Bh</td>
+      <td id="b-purple" class="t-purple">Hs</td>
+      <td id="b-grey" class="t-grey">Mt</td>
+      <td id="b-grey" class="t-grey">Ds</td>
+      <td id="b-grey" class="t-grey">Rg</td>
+      <td id="b-grey" class="t-grey">Cn</td>
+      <td id="b-grey" class="t-grey">Nh</td>
+      <td id="b-grey" class="t-grey">Fl</td>
+      <td id="b-grey" class="t-grey">Mc</td>
+      <td id="b-grey" class="t-grey">Lv</td>
+      <td id="b-grey" class="t-grey">Ts</td>
+      <td id="b-grey" class="t-grey">Og</td>
     </tr>
 
     <tr>
-      <td colspan="2"></td>
-      <td>Ce</td>
-      <td>Pr</td>
-      <td>Nd</td>
-      <td>Pm</td>
-      <td>Sm</td>
-      <td>Eu</td>
-      <td>Gd</td>
-      <td>Tb</td>
-      <td>Dy</td>
-      <td>Ho</td>
-      <td>Er</td>
-      <td>Tm</td>
-      <td>Yb</td>
-      <td>Lu</td>
-      <td colspan="2"></td>
+      <td colspan=""></td>
     </tr>
 
     <tr>
-      <td colspan="2"></td>
-      <td>Th</td>
-      <td>Pa</td>
-      <td>U</td>
-      <td>Np</td>
-      <td>Pu</td>
-      <td>Am</td>
-      <td>Cm</td>
-      <td>Bk</td>
-      <td>Cf</td>
-      <td>Es</td>
-      <td>Fm</td>
-      <td>Md</td>
-      <td>No</td>
-      <td>Lr</td>
-      <td colspan="2"></td>
+      <td colspan="3"></td>
+      <td id="b-pblue" class="t-pblue">Ce</td>
+      <td id="b-pblue" class="t-pblue">Pr</td>
+      <td id="b-pblue" class="t-pblue">Nd</td>
+      <td id="b-pblue" class="t-pblue">Pm</td>
+      <td id="b-pblue" class="t-pblue">Sm</td>
+      <td id="b-pblue" class="t-pblue">Eu</td>
+      <td id="b-pblue" class="t-pblue">Gd</td>
+      <td id="b-pblue" class="t-pblue">Tb</td>
+      <td id="b-pblue" class="t-pblue">Dy</td>
+      <td id="b-pblue" class="t-pblue">Ho</td>
+      <td id="b-pblue" class="t-pblue">Er</td>
+      <td id="b-pblue" class="t-pblue">Tm</td>
+      <td id="b-pblue" class="t-pblue">Yb</td>
+      <td id="b-pblue" class="t-pblue">Lu</td>
+    </tr>
+
+    <tr>
+      <td colspan="3"></td>
+      <td id="b-peach" class="t-peach">Th</td>
+      <td id="b-peach" class="t-peach">Pa</td>
+      <td id="b-peach" class="t-peach">U</td>
+      <td id="b-peach" class="t-peach">Np</td>
+      <td id="b-peach" class="t-peach">Pu</td>
+      <td id="b-peach" class="t-peach">Am</td>
+      <td id="b-peach" class="t-peach">Cm</td>
+      <td id="b-peach" class="t-peach">Bk</td>
+      <td id="b-peach" class="t-peach">Cf</td>
+      <td id="b-peach" class="t-peach">Es</td>
+      <td id="b-peach" class="t-peach">Fm</td>
+      <td id="b-peach" class="t-peach">Md</td>
+      <td id="b-peach" class="t-peach">No</td>
+      <td id="b-peach" class="t-peach">Lr</td>
     </tr>
 
   </table>
